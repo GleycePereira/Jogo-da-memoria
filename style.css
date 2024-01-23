@@ -103,3 +103,57 @@ h2{
 .boxMatch::after{
     transform: rotateY(180deg);
 }
+
+
+@media screen and (min-width: 360px) and (max-width: 414px){
+
+    h2{
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .game{
+        width: 100vw;
+        height: 100vh;
+    
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .item{
+        font-size: 3em;
+    }
+
+    .reset{
+        padding: 15px 20px;
+        width: 80vw;
+
+    }
+    
+}
+
+
+@media screen and (max-width: 280px) {
+    h2{
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .game{
+        width: 100vw;
+        height: 100vh;
+    
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .reset{
+        margin-top: 30vh;
+        padding: 15px 20px;
+        width: 80vw;
+
+    }
+    
+}
